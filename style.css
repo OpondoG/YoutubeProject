@@ -139,7 +139,7 @@ hr {
     overflow-y: scroll;
 }
 
-.videos__container {
+.videos__containers {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -161,4 +161,12 @@ hr {
     object-fit: cover;
     height: 100%;
     width: 100%;
+}
+
+.author img {
+    object-fit: cover;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
 }
